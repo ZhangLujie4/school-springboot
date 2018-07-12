@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: zlj
+    password: zlj
+    url: jdbc:mysql://47.95.215.194:3306/school?characterEncoding=utf-8&useSSL=false
+  http:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+server:
+  context-path: /zjut
